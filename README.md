@@ -2,7 +2,7 @@
 
 <div style="font-size: 1.5rem;">
   <a href="./README.md">English</a> |
-  <a href="./README_ZH.md">??</a>
+  <a href="./README_ZH.md">中文</a>
 </div>
 </br>
 
