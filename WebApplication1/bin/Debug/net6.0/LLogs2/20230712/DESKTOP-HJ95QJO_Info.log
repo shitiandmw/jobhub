@@ -1,0 +1,214 @@
+###78c63f5ff8f443d3bcc0830ebe3cbd81  2023-07-12 10:12:56.809 INFO GetClient 192.168.118.142:6379
+###75b9915d5984459ca4d765442cb468bf  2023-07-12 10:12:57.136 INFO JobProcessor begin
+###a6b1533d39564f1f88dfdd987ded9e8f  2023-07-12 10:13:18.600 ERROR JobProcessor 任务调度异常：Could not resolve master instance within 10000ms RetryTimeout
+   at ServiceStack.Redis.RedisResolver.CreateRedisClient(RedisEndpoint config, Boolean master) in /home/runner/work/ServiceStack/ServiceStack/ServiceStack.Redis/src/ServiceStack.Redis/RedisResolver.cs:line 110
+   at ServiceStack.Redis.RedisResolver.CreateMasterClient(Int32 desiredIndex) in /home/runner/work/ServiceStack/ServiceStack/ServiceStack.Redis/src/ServiceStack.Redis/RedisResolver.cs:line 178
+   at ServiceStack.Redis.PooledRedisClientManager.GetClientBlocking() in /home/runner/work/ServiceStack/ServiceStack/ServiceStack.Redis/src/ServiceStack.Redis/PooledRedisClientManager.cs:line 272
+   at ServiceStack.Redis.PooledRedisClientManager.GetClient() in /home/runner/work/ServiceStack/ServiceStack/ServiceStack.Redis/src/ServiceStack.Redis/PooledRedisClientManager.cs:line 218
+   at JobHub.Cache.RedisManager.GetClient() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Cache\RedisManager.cs:line 74
+   at JobHub.Service.JobProcessor.Lock(String key, String& selfMark, Int32 lockExpirySeconds) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 193
+   at JobHub.Service.JobProcessor.TakeDelayData() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 96
+   at JobHub.Service.JobProcessor.Work() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 58
+###51f1ee50910147c38af9b301d31202db  2023-07-12 10:13:40.760 ERROR JobProcessor 任务调度异常：Could not resolve master instance within 10000ms RetryTimeout
+   at ServiceStack.Redis.RedisResolver.CreateRedisClient(RedisEndpoint config, Boolean master) in /home/runner/work/ServiceStack/ServiceStack/ServiceStack.Redis/src/ServiceStack.Redis/RedisResolver.cs:line 110
+   at ServiceStack.Redis.RedisResolver.CreateMasterClient(Int32 desiredIndex) in /home/runner/work/ServiceStack/ServiceStack/ServiceStack.Redis/src/ServiceStack.Redis/RedisResolver.cs:line 178
+   at ServiceStack.Redis.PooledRedisClientManager.GetClientBlocking() in /home/runner/work/ServiceStack/ServiceStack/ServiceStack.Redis/src/ServiceStack.Redis/PooledRedisClientManager.cs:line 272
+   at ServiceStack.Redis.PooledRedisClientManager.GetClient() in /home/runner/work/ServiceStack/ServiceStack/ServiceStack.Redis/src/ServiceStack.Redis/PooledRedisClientManager.cs:line 218
+   at JobHub.Cache.RedisManager.GetClient() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Cache\RedisManager.cs:line 74
+   at JobHub.Service.JobProcessor.Lock(String key, String& selfMark, Int32 lockExpirySeconds) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 193
+   at JobHub.Service.JobProcessor.TakeDelayData() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 96
+   at JobHub.Service.JobProcessor.Work() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 58
+###fa702a98de29456f8487c385005af490  2023-07-12 10:14:02.905 ERROR JobProcessor 任务调度异常：Could not resolve master instance within 10000ms RetryTimeout
+   at ServiceStack.Redis.RedisResolver.CreateRedisClient(RedisEndpoint config, Boolean master) in /home/runner/work/ServiceStack/ServiceStack/ServiceStack.Redis/src/ServiceStack.Redis/RedisResolver.cs:line 110
+   at ServiceStack.Redis.RedisResolver.CreateMasterClient(Int32 desiredIndex) in /home/runner/work/ServiceStack/ServiceStack/ServiceStack.Redis/src/ServiceStack.Redis/RedisResolver.cs:line 178
+   at ServiceStack.Redis.PooledRedisClientManager.GetClientBlocking() in /home/runner/work/ServiceStack/ServiceStack/ServiceStack.Redis/src/ServiceStack.Redis/PooledRedisClientManager.cs:line 272
+   at ServiceStack.Redis.PooledRedisClientManager.GetClient() in /home/runner/work/ServiceStack/ServiceStack/ServiceStack.Redis/src/ServiceStack.Redis/PooledRedisClientManager.cs:line 218
+   at JobHub.Cache.RedisManager.GetClient() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Cache\RedisManager.cs:line 74
+   at JobHub.Service.JobProcessor.Lock(String key, String& selfMark, Int32 lockExpirySeconds) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 193
+   at JobHub.Service.JobProcessor.TakeDelayData() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 96
+   at JobHub.Service.JobProcessor.Work() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 58
+###5be4a0f767b84c44a795c329f428611b  2023-07-12 10:14:24.968 ERROR JobProcessor 任务调度异常：Could not resolve master instance within 10000ms RetryTimeout
+   at ServiceStack.Redis.RedisResolver.CreateRedisClient(RedisEndpoint config, Boolean master) in /home/runner/work/ServiceStack/ServiceStack/ServiceStack.Redis/src/ServiceStack.Redis/RedisResolver.cs:line 110
+   at ServiceStack.Redis.RedisResolver.CreateMasterClient(Int32 desiredIndex) in /home/runner/work/ServiceStack/ServiceStack/ServiceStack.Redis/src/ServiceStack.Redis/RedisResolver.cs:line 178
+   at ServiceStack.Redis.PooledRedisClientManager.GetClientBlocking() in /home/runner/work/ServiceStack/ServiceStack/ServiceStack.Redis/src/ServiceStack.Redis/PooledRedisClientManager.cs:line 272
+   at ServiceStack.Redis.PooledRedisClientManager.GetClient() in /home/runner/work/ServiceStack/ServiceStack/ServiceStack.Redis/src/ServiceStack.Redis/PooledRedisClientManager.cs:line 218
+   at JobHub.Cache.RedisManager.GetClient() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Cache\RedisManager.cs:line 74
+   at JobHub.Service.JobProcessor.Lock(String key, String& selfMark, Int32 lockExpirySeconds) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 193
+   at JobHub.Service.JobProcessor.TakeDelayData() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 96
+   at JobHub.Service.JobProcessor.Work() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 58
+###69769ddc0e144cc680e523144e1eb944  2023-07-12 10:14:26.060 INFO TakeDelayData time:1689128066;result:1
+###8a3d65cd8082442f8d1a885114c52979  2023-07-12 10:14:26.067 INFO WorkDetail url:http://eye-api-dev.eyebright.net.cn/;post_data:{"id":"stringstri","retry_index":4}
+###e569003c871a483581b4cbc4eabe4a75  2023-07-12 10:14:26.397 ERROR WorkDetail 响应错误：{"data":[],"code":412,"msg":"\u975e\u6cd5\u8bf7\u6c42"}
+   at JobHub.Service.JobProcessor.WorkDetail(oDelay info) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 158
+###1ebeba0b68ce4853ad340b72315732c4  2023-07-12 10:15:22.898 INFO TakeDelayData time:1689128122;result:0
+###3b9d1e19b11447688c6b4bfe7e2c4161  2023-07-12 10:16:05.314 INFO TakeDelayData time:1689128165;result:1
+###c229ed9e3e944e9c8f9d6ae792b591d6  2023-07-12 10:16:05.314 INFO WorkDetail url:;post_data:{"id":"93c7e800-6a2c-47e8-ad6a-3658c5f8a548","retry_index":0}
+###fc602d98371644449da418072d6e9959  2023-07-12 10:16:05.320 ERROR WorkDetail Call failed. An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set: POST 
+   at Flurl.Http.FlurlRequest.HandleExceptionAsync(FlurlCall call, Exception ex, CancellationToken token)
+   at Flurl.Http.FlurlRequest.SendAsync(HttpMethod verb, HttpContent content, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Flurl.Http.FlurlRequest.SendAsync(HttpMethod verb, HttpContent content, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at JobHub.Service.JobProcessor.WorkDetail(oDelay info) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 152
+###d5cd4253335749d49db05f4ee067cddc  2023-07-12 10:16:10.366 INFO TakeDelayData time:1689128170;result:1
+###6eae381eed4b436c9e27d5c414fa2bce  2023-07-12 10:16:10.366 INFO WorkDetail url:;post_data:{"id":"93c7e800-6a2c-47e8-ad6a-3658c5f8a548","retry_index":1}
+###7ea365ebd74048918db708c0932b83f8  2023-07-12 10:16:10.367 ERROR WorkDetail Call failed. An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set: POST 
+   at Flurl.Http.FlurlRequest.HandleExceptionAsync(FlurlCall call, Exception ex, CancellationToken token)
+   at Flurl.Http.FlurlRequest.SendAsync(HttpMethod verb, HttpContent content, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Flurl.Http.FlurlRequest.SendAsync(HttpMethod verb, HttpContent content, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at JobHub.Service.JobProcessor.WorkDetail(oDelay info) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 152
+###60109897131a464b84d85d6a520cc3ba  2023-07-12 10:16:23.491 INFO TakeDelayData time:1689128183;result:0
+###9967822f414b4796b023b3e225b5a9c0  2023-07-12 10:16:25.513 INFO TakeDelayData time:1689128185;result:1
+###d33ae995963b4f0c90fea45aae75b4a6  2023-07-12 10:16:25.513 INFO WorkDetail url:;post_data:{"id":"93c7e800-6a2c-47e8-ad6a-3658c5f8a548","retry_index":2}
+###02c353fda2c14bf6bfa8bfba753cf7d9  2023-07-12 10:16:25.514 ERROR WorkDetail Call failed. An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set: POST 
+   at Flurl.Http.FlurlRequest.HandleExceptionAsync(FlurlCall call, Exception ex, CancellationToken token)
+   at Flurl.Http.FlurlRequest.SendAsync(HttpMethod verb, HttpContent content, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Flurl.Http.FlurlRequest.SendAsync(HttpMethod verb, HttpContent content, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at JobHub.Service.JobProcessor.WorkDetail(oDelay info) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 152
+###9472066b71144b25b8f580ad04cca616  2023-07-12 10:16:55.779 INFO TakeDelayData time:1689128215;result:1
+###23fa0ff69fc1426b8449aa4f1f0c26d7  2023-07-12 10:16:55.779 INFO WorkDetail url:;post_data:{"id":"93c7e800-6a2c-47e8-ad6a-3658c5f8a548","retry_index":3}
+###0444f0bb98f545558accfcdd98cc7a23  2023-07-12 10:16:55.780 ERROR WorkDetail Call failed. An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set: POST 
+   at Flurl.Http.FlurlRequest.HandleExceptionAsync(FlurlCall call, Exception ex, CancellationToken token)
+   at Flurl.Http.FlurlRequest.SendAsync(HttpMethod verb, HttpContent content, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Flurl.Http.FlurlRequest.SendAsync(HttpMethod verb, HttpContent content, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at JobHub.Service.JobProcessor.WorkDetail(oDelay info) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 152
+###9d8e56df542b4cf0809565dc510a3067  2023-07-12 10:17:00.820 INFO TakeDelayData time:1689128220;result:1
+###711ab3e4b28d42489de8015a19cf6007  2023-07-12 10:17:00.820 INFO WorkDetail url:;post_data:{"id":"f26aa9a9-a722-41d4-a644-cf0c88535326","retry_index":0}
+###1617956665a044e18db46d62107d6ec6  2023-07-12 10:17:00.821 ERROR WorkDetail Call failed. An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set: POST 
+   at Flurl.Http.FlurlRequest.HandleExceptionAsync(FlurlCall call, Exception ex, CancellationToken token)
+   at Flurl.Http.FlurlRequest.SendAsync(HttpMethod verb, HttpContent content, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Flurl.Http.FlurlRequest.SendAsync(HttpMethod verb, HttpContent content, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at JobHub.Service.JobProcessor.WorkDetail(oDelay info) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 152
+###f9f05d6a705d47bdac8085badc1f3ce7  2023-07-12 10:17:05.882 INFO TakeDelayData time:1689128225;result:1
+###4c7c8120d365487b8b597b792204420e  2023-07-12 10:17:05.882 INFO WorkDetail url:;post_data:{"id":"f26aa9a9-a722-41d4-a644-cf0c88535326","retry_index":1}
+###1cbbf054d1fc473f90d32b2b1596bd8b  2023-07-12 10:17:05.883 ERROR WorkDetail Call failed. An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set: POST 
+   at Flurl.Http.FlurlRequest.HandleExceptionAsync(FlurlCall call, Exception ex, CancellationToken token)
+   at Flurl.Http.FlurlRequest.SendAsync(HttpMethod verb, HttpContent content, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Flurl.Http.FlurlRequest.SendAsync(HttpMethod verb, HttpContent content, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at JobHub.Service.JobProcessor.WorkDetail(oDelay info) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 152
+###b24a2b183a1d4502accba0f8dfff0ba5  2023-07-12 10:17:20.040 INFO TakeDelayData time:1689128240;result:1
+###4c4c4428848748d683fa0483b671441b  2023-07-12 10:17:20.040 INFO WorkDetail url:;post_data:{"id":"f26aa9a9-a722-41d4-a644-cf0c88535326","retry_index":2}
+###92e2d4e8ae4d430cacc5d9f93ef14418  2023-07-12 10:17:20.040 ERROR WorkDetail Call failed. An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set: POST 
+   at Flurl.Http.FlurlRequest.HandleExceptionAsync(FlurlCall call, Exception ex, CancellationToken token)
+   at Flurl.Http.FlurlRequest.SendAsync(HttpMethod verb, HttpContent content, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Flurl.Http.FlurlRequest.SendAsync(HttpMethod verb, HttpContent content, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at JobHub.Service.JobProcessor.WorkDetail(oDelay info) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 152
+###fc2cf6576a3c4cb8a7e991867d1f98d0  2023-07-12 10:17:24.069 INFO TakeDelayData time:1689128244;result:0
+###e609f970c8d244af9721e930a9e94f46  2023-07-12 10:17:26.089 INFO TakeDelayData time:1689128246;result:1
+###7187fc94db1445329a915c399bbb81e6  2023-07-12 10:17:26.089 INFO WorkDetail url:http://eye-api-dev.eyebright.net.cn/;post_data:{"id":"stringstri","retry_index":5}
+###1bca00045e7041e688fc87dc4c228bef  2023-07-12 10:17:26.111 ERROR WorkDetail 响应错误：{"data":[],"code":412,"msg":"\u975e\u6cd5\u8bf7\u6c42"}
+   at JobHub.Service.JobProcessor.WorkDetail(oDelay info) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 158
+###89c52d6b28db405393fbaba0aacca41a  2023-07-12 10:17:50.296 INFO TakeDelayData time:1689128270;result:1
+###b94473f0f0644239b295e338dd743cd5  2023-07-12 10:17:50.296 INFO WorkDetail url:;post_data:{"id":"f26aa9a9-a722-41d4-a644-cf0c88535326","retry_index":3}
+###dc95fe245d584c1db82d56d1523fb8a0  2023-07-12 10:17:50.297 ERROR WorkDetail Call failed. An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set: POST 
+   at Flurl.Http.FlurlRequest.HandleExceptionAsync(FlurlCall call, Exception ex, CancellationToken token)
+   at Flurl.Http.FlurlRequest.SendAsync(HttpMethod verb, HttpContent content, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Flurl.Http.FlurlRequest.SendAsync(HttpMethod verb, HttpContent content, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at JobHub.Service.JobProcessor.WorkDetail(oDelay info) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 152
+###135713430a0241609ca32ceae827833b  2023-07-12 10:17:55.344 INFO TakeDelayData time:1689128275;result:1
+###cc916f4523d243b493a6eeb54d1e49b0  2023-07-12 10:17:55.344 INFO WorkDetail url:;post_data:{"id":"93c7e800-6a2c-47e8-ad6a-3658c5f8a548","retry_index":4}
+###165cf82466f8451793662c5d6f0dfbb3  2023-07-12 10:17:55.344 ERROR WorkDetail Call failed. An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set: POST 
+   at Flurl.Http.FlurlRequest.HandleExceptionAsync(FlurlCall call, Exception ex, CancellationToken token)
+   at Flurl.Http.FlurlRequest.SendAsync(HttpMethod verb, HttpContent content, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Flurl.Http.FlurlRequest.SendAsync(HttpMethod verb, HttpContent content, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at JobHub.Service.JobProcessor.WorkDetail(oDelay info) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 152
+###2286cae399964b58b6c27c5976abb30c  2023-07-12 10:18:24.642 INFO TakeDelayData time:1689128304;result:0
+###3d8cfeb48c8c468ca6f7a37dc3c590ce  2023-07-12 10:18:50.915 INFO TakeDelayData time:1689128330;result:1
+###75b42a40a04f476fa05cf33e41887ed7  2023-07-12 10:18:50.915 INFO WorkDetail url:;post_data:{"id":"f26aa9a9-a722-41d4-a644-cf0c88535326","retry_index":4}
+###2f98dd97c19a49bf81e3bfee8bb61e24  2023-07-12 10:18:50.916 ERROR WorkDetail Call failed. An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set: POST 
+   at Flurl.Http.FlurlRequest.HandleExceptionAsync(FlurlCall call, Exception ex, CancellationToken token)
+   at Flurl.Http.FlurlRequest.SendAsync(HttpMethod verb, HttpContent content, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Flurl.Http.FlurlRequest.SendAsync(HttpMethod verb, HttpContent content, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at JobHub.Service.JobProcessor.WorkDetail(oDelay info) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 152
+###19562a3af86b4b0a84c89e62776bb6fb  2023-07-12 10:19:25.255 INFO TakeDelayData time:1689128365;result:0
+###70a3daac522741539c1723b3a8fe299d  2023-07-12 10:20:25.831 INFO TakeDelayData time:1689128425;result:0
+###12c8586083b24f0a912d7ae029901786  2023-07-12 10:20:26.846 INFO TakeDelayData time:1689128426;result:1
+###748d4c344b1948f991fe2fee910ea66f  2023-07-12 10:20:26.846 INFO WorkDetail url:http://eye-api-dev.eyebright.net.cn/;post_data:{"id":"stringstri","retry_index":6}
+###cfc69dd4c5de4e61a18fce116cc2d423  2023-07-12 10:20:26.883 ERROR WorkDetail 响应错误：{"data":[],"code":412,"msg":"\u975e\u6cd5\u8bf7\u6c42"}
+   at JobHub.Service.JobProcessor.WorkDetail(oDelay info) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 158
+###77dac503c5dd4171a801a149dc24de66  2023-07-12 10:20:55.107 INFO TakeDelayData time:1689128455;result:1
+###c078edb71851437ca8141f9fcbd1e4a5  2023-07-12 10:20:55.107 INFO WorkDetail url:;post_data:{"id":"93c7e800-6a2c-47e8-ad6a-3658c5f8a548","retry_index":5}
+###9efad1456a264720a0f19ee216d53e14  2023-07-12 10:20:55.108 ERROR WorkDetail Call failed. An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set: POST 
+   at Flurl.Http.FlurlRequest.HandleExceptionAsync(FlurlCall call, Exception ex, CancellationToken token)
+   at Flurl.Http.FlurlRequest.SendAsync(HttpMethod verb, HttpContent content, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Flurl.Http.FlurlRequest.SendAsync(HttpMethod verb, HttpContent content, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at JobHub.Service.JobProcessor.WorkDetail(oDelay info) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 152
+###e83514588c4349b0b0dcf53ea39f2bff  2023-07-12 10:21:26.421 INFO TakeDelayData time:1689128486;result:0
+###09723175925d475c87aaf14fed0c0701  2023-07-12 10:21:50.679 INFO TakeDelayData time:1689128510;result:1
+###1379497baeca4f53974eb5d1d965f29a  2023-07-12 10:21:50.679 INFO WorkDetail url:;post_data:{"id":"f26aa9a9-a722-41d4-a644-cf0c88535326","retry_index":5}
+###8aa65856c38a46989de58e5e56e2c7bf  2023-07-12 10:21:50.680 ERROR WorkDetail Call failed. An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set: POST 
+   at Flurl.Http.FlurlRequest.HandleExceptionAsync(FlurlCall call, Exception ex, CancellationToken token)
+   at Flurl.Http.FlurlRequest.SendAsync(HttpMethod verb, HttpContent content, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Flurl.Http.FlurlRequest.SendAsync(HttpMethod verb, HttpContent content, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at JobHub.Service.JobProcessor.WorkDetail(oDelay info) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 152
+###f9226af8399a481f91cd2466482a58d1  2023-07-12 10:22:27.052 INFO TakeDelayData time:1689128547;result:0
+###49859aa3dd5c479c9827ea8a28bb020f  2023-07-12 10:22:57.344 INFO TakeDelayData time:1689128577;result:1
+###6b3427670b4849af92fbcbecd3d1fc4b  2023-07-12 10:22:57.344 INFO WorkDetail url:;post_data:{"id":"6bc6fe37-6eac-40bd-8056-581e95a9bd9b","retry_index":0}
+###e41f17d1c06d4c63b29e56391ef59c25  2023-07-12 10:22:57.346 ERROR WorkDetail Call failed. An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set: POST 
+   at Flurl.Http.FlurlRequest.HandleExceptionAsync(FlurlCall call, Exception ex, CancellationToken token)
+   at Flurl.Http.FlurlRequest.SendAsync(HttpMethod verb, HttpContent content, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Flurl.Http.FlurlRequest.SendAsync(HttpMethod verb, HttpContent content, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at JobHub.Service.JobProcessor.WorkDetail(oDelay info) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 152
+###bd76fd6a792c499aa34eff76f6685107  2023-07-12 10:23:02.395 INFO TakeDelayData time:1689128582;result:1
+###aebfe1d4e0fe4b8ea90b54cd69ae3907  2023-07-12 10:23:02.395 INFO WorkDetail url:;post_data:{"id":"6bc6fe37-6eac-40bd-8056-581e95a9bd9b","retry_index":1}
+###64d122cdb568476eaa48b72b6467c697  2023-07-12 10:23:02.396 ERROR WorkDetail Call failed. An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set: POST 
+   at Flurl.Http.FlurlRequest.HandleExceptionAsync(FlurlCall call, Exception ex, CancellationToken token)
+   at Flurl.Http.FlurlRequest.SendAsync(HttpMethod verb, HttpContent content, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Flurl.Http.FlurlRequest.SendAsync(HttpMethod verb, HttpContent content, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at JobHub.Service.JobProcessor.WorkDetail(oDelay info) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 152
+###389592d1c33b431e86f0ae6d85828301  2023-07-12 10:23:17.540 INFO TakeDelayData time:1689128597;result:1
+###3a1e6299ce1f454db191779f1465e4aa  2023-07-12 10:23:17.540 INFO WorkDetail url:;post_data:{"id":"6bc6fe37-6eac-40bd-8056-581e95a9bd9b","retry_index":2}
+###40fde3cdc1594f25a8982aff361ce746  2023-07-12 10:23:17.541 ERROR WorkDetail Call failed. An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set: POST 
+   at Flurl.Http.FlurlRequest.HandleExceptionAsync(FlurlCall call, Exception ex, CancellationToken token)
+   at Flurl.Http.FlurlRequest.SendAsync(HttpMethod verb, HttpContent content, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Flurl.Http.FlurlRequest.SendAsync(HttpMethod verb, HttpContent content, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at JobHub.Service.JobProcessor.WorkDetail(oDelay info) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 152
+###133ab1227991475b807bdf172d59f085  2023-07-12 10:23:27.632 INFO TakeDelayData time:1689128607;result:0
+###096e0c1e25704101ae35e84134aa00bd  2023-07-12 10:23:47.849 INFO TakeDelayData time:1689128627;result:1
+###06e4e721eea242169e3aa3f18313bbc9  2023-07-12 10:23:47.849 INFO WorkDetail url:;post_data:{"id":"6bc6fe37-6eac-40bd-8056-581e95a9bd9b","retry_index":3}
+###f44a4e80ecdd456f918ef36f78543000  2023-07-12 10:23:47.849 ERROR WorkDetail Call failed. An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set: POST 
+   at Flurl.Http.FlurlRequest.HandleExceptionAsync(FlurlCall call, Exception ex, CancellationToken token)
+   at Flurl.Http.FlurlRequest.SendAsync(HttpMethod verb, HttpContent content, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Flurl.Http.FlurlRequest.SendAsync(HttpMethod verb, HttpContent content, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at JobHub.Service.JobProcessor.WorkDetail(oDelay info) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 152
+###31ef95ddec884ad9ae803a768f458c02  2023-07-12 10:23:55.931 INFO TakeDelayData time:1689128635;result:1
+###7609edf55e0b433f9f799a6497641b64  2023-07-12 10:23:55.931 INFO WorkDetail url:;post_data:{"id":"93c7e800-6a2c-47e8-ad6a-3658c5f8a548","retry_index":6}
+###2d6dffcdf53e423fa6740ac80c565f62  2023-07-12 10:23:55.931 ERROR WorkDetail Call failed. An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set: POST 
+   at Flurl.Http.FlurlRequest.HandleExceptionAsync(FlurlCall call, Exception ex, CancellationToken token)
+   at Flurl.Http.FlurlRequest.SendAsync(HttpMethod verb, HttpContent content, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Flurl.Http.FlurlRequest.SendAsync(HttpMethod verb, HttpContent content, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at JobHub.Service.JobProcessor.WorkDetail(oDelay info) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 152
+###947e0b1ffaff4fd989f10a5f5ade45ce  2023-07-12 10:24:28.269 INFO TakeDelayData time:1689128668;result:0
+###6e26474942354255923e1da5c51966db  2023-07-12 10:24:47.472 INFO TakeDelayData time:1689128687;result:1
+###853a19dc9a3e4e66861a31464adb42a8  2023-07-12 10:24:47.472 INFO WorkDetail url:;post_data:{"id":"6bc6fe37-6eac-40bd-8056-581e95a9bd9b","retry_index":4}
+###fd96456af2db47238c0560c5e5a1f2a5  2023-07-12 10:24:47.472 ERROR WorkDetail Call failed. An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set: POST 
+   at Flurl.Http.FlurlRequest.HandleExceptionAsync(FlurlCall call, Exception ex, CancellationToken token)
+   at Flurl.Http.FlurlRequest.SendAsync(HttpMethod verb, HttpContent content, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Flurl.Http.FlurlRequest.SendAsync(HttpMethod verb, HttpContent content, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at JobHub.Service.JobProcessor.WorkDetail(oDelay info) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 152
+###b146c6788e714f8196235e8be0c7dd86  2023-07-12 10:24:50.508 INFO TakeDelayData time:1689128690;result:1
+###8ce390f33f284411a767d580c3b3df2f  2023-07-12 10:24:50.508 INFO WorkDetail url:;post_data:{"id":"f26aa9a9-a722-41d4-a644-cf0c88535326","retry_index":6}
+###4c3a9127704e44cd9e38982ace403128  2023-07-12 10:24:50.508 ERROR WorkDetail Call failed. An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set: POST 
+   at Flurl.Http.FlurlRequest.HandleExceptionAsync(FlurlCall call, Exception ex, CancellationToken token)
+   at Flurl.Http.FlurlRequest.SendAsync(HttpMethod verb, HttpContent content, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Flurl.Http.FlurlRequest.SendAsync(HttpMethod verb, HttpContent content, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at JobHub.Service.JobProcessor.WorkDetail(oDelay info) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 152
+###72d670b16b94480e88c15ea7e64e7878  2023-07-12 10:25:28.917 INFO TakeDelayData time:1689128728;result:0
+###1b66b0f234e54df69e748d88bd06e0f5  2023-07-12 10:25:40.454 INFO GetClient 192.168.118.142:6379
+###7de61cccb37c44d4a467fa8824eee71e  2023-07-12 10:25:40.552 INFO JobProcessor begin
+###e045c77c6f6a4238b60509e397c41af1  2023-07-12 10:25:40.640 INFO TakeDelayData time:1689128740;result:0
+###b7245bbb08a94e7e8a51837ff5a5955f  2023-07-12 10:26:11.541 INFO GetClient 192.168.118.142:6379
+###06479d599584453684ac536ec210cf8d  2023-07-12 10:26:11.616 INFO JobProcessor begin
+###37b9d50040ec422498ac19222c24df6f  2023-07-12 10:26:11.700 INFO TakeDelayData time:1689128771;result:0
+###3c25261c2200411bab677b4c7109f018  2023-07-12 10:27:12.340 INFO TakeDelayData time:1689128832;result:0
+###3899f27f4380498eaf3daa7ba8bf811e  2023-07-12 10:27:47.800 INFO TakeDelayData time:1689128867;result:1
+###cb840fbf64be4d94906250c131b3eb4a  2023-07-12 10:27:47.822 INFO WorkDetail url:;post_data:{"id":"6bc6fe37-6eac-40bd-8056-581e95a9bd9b","retry_index":5}
+###18031132c0584243b6f317de0e2dfb92  2023-07-12 10:27:47.870 ERROR WorkDetail Call failed. An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set: POST 
+   at Flurl.Http.FlurlRequest.HandleExceptionAsync(FlurlCall call, Exception ex, CancellationToken token)
+   at Flurl.Http.FlurlRequest.SendAsync(HttpMethod verb, HttpContent content, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Flurl.Http.FlurlRequest.SendAsync(HttpMethod verb, HttpContent content, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at JobHub.Service.JobProcessor.WorkDetail(oDelay info) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 154
+###bbf4ff51cdff48cba6b997cf20f5811e  2023-07-12 10:27:47.879 INFO retry no url :
+###d8115de0a4c1438e9b0ec144f5e001bb  2023-07-12 10:28:13.128 INFO TakeDelayData time:1689128893;result:0
+###429eed48043241bf9b759fcc2e02660e  2023-07-12 10:29:13.766 INFO TakeDelayData time:1689128953;result:0
+###d12a3b5f10b34c8cb62957b884aff1ac  2023-07-12 10:30:14.397 INFO TakeDelayData time:1689129014;result:0
+###c84b8946957943ca853912bcb8fd3ab5  2023-07-12 10:31:15.070 INFO TakeDelayData time:1689129075;result:0
+###57461ee00de54f969eea6301a28e9b93  2023-07-12 10:32:15.689 INFO TakeDelayData time:1689129135;result:0

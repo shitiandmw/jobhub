@@ -1,0 +1,44 @@
+version: '3'
+services:
+  jobhub:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    volumes:
+      - ./log:/app/LLogs2
+    logging:
+      driver: json-file
+      options:
+        max-size: 50m
+        max-file: '2'
+    depends_on:
+      - redisServer
+    restart: always
+    container_name: jobhub-server
+    ports:
+      - "17001:80"
+    networks:
+      my_network:
+        ipv4_address: 172.20.0.151
+
+  redisServer:
+    image: redis:latest
+    volumes:
+      - ./data:/data
+    logging:
+      driver: json-file
+      options:
+        max-size: 50m
+        max-file: '2'
+    restart: always
+    container_name: jobhub-redisServer
+    networks:
+      - my_network
+
+networks:
+  my_network:
+    driver: bridge
+    ipam:
+      driver: default
+      config:
+        - subnet: 172.20.0.0/24

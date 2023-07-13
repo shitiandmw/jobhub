@@ -1,0 +1,483 @@
+###f322634a267f4175893ac244884cf199  2023-07-13 16:17:52.658 INFO GetClient redisServer:6379
+###fe99518aac9e445a979c08685474a813  2023-07-13 16:17:53.021 INFO JobProcessor begin
+###14d7bed321af43dd9313f45dedea857c  2023-07-13 16:18:02.853 INFO Create input {"id":"stringstri","callback":"string","authorization":"string","timestamp":0,"retry_index":0}
+###a37acd68cf9a4fc9b69301fdcfee31cd  2023-07-13 16:18:02.853 INFO Create time -1689236282秒后执行
+###fb5a8440e390438c913ad886705606e2  2023-07-13 16:18:04.593 ERROR JobProcessor 任务调度异常：Could not resolve master instance within 10000ms RetryTimeout
+   at ServiceStack.Redis.RedisResolver.CreateRedisClient(RedisEndpoint config, Boolean master) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 110
+   at ServiceStack.Redis.RedisResolver.CreateMasterClient(Int32 desiredIndex) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 178
+   at ServiceStack.Redis.PooledRedisClientManager.GetClientBlocking() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 272
+   at ServiceStack.Redis.PooledRedisClientManager.GetClient() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 218
+   at JobHub.Cache.RedisManager.GetClient() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Cache\RedisManager.cs:line 74
+   at JobHub.Service.JobProcessor.Lock(String key, String& selfMark, Int32 lockExpirySeconds) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 199
+   at JobHub.Service.JobProcessor.TakeDelayData() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 98
+   at JobHub.Service.JobProcessor.Work() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 60
+###1572cc309278423ab16e52c38e01b632  2023-07-13 16:18:16.112 ERROR JobProcessor 任务调度异常：Could not resolve master instance within 10000ms RetryTimeout
+   at ServiceStack.Redis.RedisResolver.CreateRedisClient(RedisEndpoint config, Boolean master) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 110
+   at ServiceStack.Redis.RedisResolver.CreateMasterClient(Int32 desiredIndex) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 178
+   at ServiceStack.Redis.PooledRedisClientManager.GetClientBlocking() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 272
+   at ServiceStack.Redis.PooledRedisClientManager.GetClient() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 218
+   at JobHub.Cache.RedisManager.GetClient() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Cache\RedisManager.cs:line 74
+   at JobHub.Service.JobProcessor.Lock(String key, String& selfMark, Int32 lockExpirySeconds) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 199
+   at JobHub.Service.JobProcessor.TakeDelayData() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 98
+   at JobHub.Service.JobProcessor.Work() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 60
+###7c6f377ac9ff4df18f10b148c655dcce  2023-07-13 16:18:27.476 ERROR JobProcessor 任务调度异常：Could not resolve master instance within 10000ms RetryTimeout
+   at ServiceStack.Redis.RedisResolver.CreateRedisClient(RedisEndpoint config, Boolean master) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 110
+   at ServiceStack.Redis.RedisResolver.CreateMasterClient(Int32 desiredIndex) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 178
+   at ServiceStack.Redis.PooledRedisClientManager.GetClientBlocking() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 272
+   at ServiceStack.Redis.PooledRedisClientManager.GetClient() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 218
+   at JobHub.Cache.RedisManager.GetClient() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Cache\RedisManager.cs:line 74
+   at JobHub.Service.JobProcessor.Lock(String key, String& selfMark, Int32 lockExpirySeconds) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 199
+   at JobHub.Service.JobProcessor.TakeDelayData() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 98
+   at JobHub.Service.JobProcessor.Work() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 60
+###7af1c0fa265843ad8da692ef1a6b3ec7  2023-07-13 16:18:37.298 INFO Create input {"id":"stringstri","callback":"string","authorization":"string","timestamp":0,"retry_index":0}
+###f30fd7a1f78e453e9b60e49e6515bea5  2023-07-13 16:18:37.298 INFO Create time -1689236317秒后执行
+###8cfeec4593204aba869966576e9b88bf  2023-07-13 16:18:40.216 ERROR JobProcessor 任务调度异常：Could not resolve master instance within 10000ms RetryTimeout
+   at ServiceStack.Redis.RedisResolver.CreateRedisClient(RedisEndpoint config, Boolean master) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 110
+   at ServiceStack.Redis.RedisResolver.CreateMasterClient(Int32 desiredIndex) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 178
+   at ServiceStack.Redis.PooledRedisClientManager.GetClientBlocking() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 272
+   at ServiceStack.Redis.PooledRedisClientManager.GetClient() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 218
+   at JobHub.Cache.RedisManager.GetClient() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Cache\RedisManager.cs:line 74
+   at JobHub.Service.JobProcessor.Lock(String key, String& selfMark, Int32 lockExpirySeconds) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 199
+   at JobHub.Service.JobProcessor.TakeDelayData() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 98
+   at JobHub.Service.JobProcessor.Work() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 60
+###078fda56701d410f937668196453e06f  2023-07-13 16:18:52.541 ERROR JobProcessor 任务调度异常：Could not resolve master instance within 10000ms RetryTimeout
+   at ServiceStack.Redis.RedisResolver.CreateRedisClient(RedisEndpoint config, Boolean master) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 110
+   at ServiceStack.Redis.RedisResolver.CreateMasterClient(Int32 desiredIndex) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 178
+   at ServiceStack.Redis.PooledRedisClientManager.GetClientBlocking() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 272
+   at ServiceStack.Redis.PooledRedisClientManager.GetClient() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 218
+   at JobHub.Cache.RedisManager.GetClient() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Cache\RedisManager.cs:line 74
+   at JobHub.Service.JobProcessor.Lock(String key, String& selfMark, Int32 lockExpirySeconds) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 199
+   at JobHub.Service.JobProcessor.TakeDelayData() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 98
+   at JobHub.Service.JobProcessor.Work() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 60
+###906e3c45ba064976bed14c7083e6fc3f  2023-07-13 16:19:04.139 ERROR JobProcessor 任务调度异常：Could not resolve master instance within 10000ms RetryTimeout
+   at ServiceStack.Redis.RedisResolver.CreateRedisClient(RedisEndpoint config, Boolean master) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 110
+   at ServiceStack.Redis.RedisResolver.CreateMasterClient(Int32 desiredIndex) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 178
+   at ServiceStack.Redis.PooledRedisClientManager.GetClientBlocking() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 272
+   at ServiceStack.Redis.PooledRedisClientManager.GetClient() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 218
+   at JobHub.Cache.RedisManager.GetClient() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Cache\RedisManager.cs:line 74
+   at JobHub.Service.JobProcessor.Lock(String key, String& selfMark, Int32 lockExpirySeconds) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 199
+   at JobHub.Service.JobProcessor.TakeDelayData() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 98
+   at JobHub.Service.JobProcessor.Work() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 60
+###2722788b46024964bf50a9f23cc1421e  2023-07-13 16:19:17.820 ERROR JobProcessor 任务调度异常：Could not resolve master instance within 10000ms RetryTimeout
+   at ServiceStack.Redis.RedisResolver.CreateRedisClient(RedisEndpoint config, Boolean master) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 110
+   at ServiceStack.Redis.RedisResolver.CreateMasterClient(Int32 desiredIndex) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 178
+   at ServiceStack.Redis.PooledRedisClientManager.GetClientBlocking() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 272
+   at ServiceStack.Redis.PooledRedisClientManager.GetClient() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 218
+   at JobHub.Cache.RedisManager.GetClient() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Cache\RedisManager.cs:line 74
+   at JobHub.Service.JobProcessor.Lock(String key, String& selfMark, Int32 lockExpirySeconds) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 199
+   at JobHub.Service.JobProcessor.TakeDelayData() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 98
+   at JobHub.Service.JobProcessor.Work() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 60
+###77805c1e0305476281c62f0d74db42e1  2023-07-13 16:19:29.133 ERROR JobProcessor 任务调度异常：Could not resolve master instance within 10000ms RetryTimeout
+   at ServiceStack.Redis.RedisResolver.CreateRedisClient(RedisEndpoint config, Boolean master) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 110
+   at ServiceStack.Redis.RedisResolver.CreateMasterClient(Int32 desiredIndex) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 178
+   at ServiceStack.Redis.PooledRedisClientManager.GetClientBlocking() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 272
+   at ServiceStack.Redis.PooledRedisClientManager.GetClient() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 218
+   at JobHub.Cache.RedisManager.GetClient() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Cache\RedisManager.cs:line 74
+   at JobHub.Service.JobProcessor.Lock(String key, String& selfMark, Int32 lockExpirySeconds) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 199
+   at JobHub.Service.JobProcessor.TakeDelayData() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 98
+   at JobHub.Service.JobProcessor.Work() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 60
+###03bfefd4d91d4a31bc78f671563344c6  2023-07-13 16:19:40.734 ERROR JobProcessor 任务调度异常：Could not resolve master instance within 10000ms RetryTimeout
+   at ServiceStack.Redis.RedisResolver.CreateRedisClient(RedisEndpoint config, Boolean master) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 110
+   at ServiceStack.Redis.RedisResolver.CreateMasterClient(Int32 desiredIndex) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 178
+   at ServiceStack.Redis.PooledRedisClientManager.GetClientBlocking() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 272
+   at ServiceStack.Redis.PooledRedisClientManager.GetClient() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 218
+   at JobHub.Cache.RedisManager.GetClient() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Cache\RedisManager.cs:line 74
+   at JobHub.Service.JobProcessor.Lock(String key, String& selfMark, Int32 lockExpirySeconds) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 199
+   at JobHub.Service.JobProcessor.TakeDelayData() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 98
+   at JobHub.Service.JobProcessor.Work() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 60
+###e910336c7154481fba3db9db6aef44dd  2023-07-13 16:19:43.647 INFO Cancel input string
+###cceb20ccc46a412ab6b01f73b84307fc  2023-07-13 16:19:53.250 ERROR JobProcessor 任务调度异常：Could not resolve master instance within 10000ms RetryTimeout
+   at ServiceStack.Redis.RedisResolver.CreateRedisClient(RedisEndpoint config, Boolean master) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 110
+   at ServiceStack.Redis.RedisResolver.CreateMasterClient(Int32 desiredIndex) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 178
+   at ServiceStack.Redis.PooledRedisClientManager.GetClientBlocking() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 272
+   at ServiceStack.Redis.PooledRedisClientManager.GetClient() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 218
+   at JobHub.Cache.RedisManager.GetClient() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Cache\RedisManager.cs:line 74
+   at JobHub.Service.JobProcessor.Lock(String key, String& selfMark, Int32 lockExpirySeconds) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 199
+   at JobHub.Service.JobProcessor.TakeDelayData() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 98
+   at JobHub.Service.JobProcessor.Work() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 60
+###2e377cea2aaa47b4aa64a6e5a540c476  2023-07-13 16:20:08.234 ERROR JobProcessor 任务调度异常：Could not resolve master instance within 10000ms RetryTimeout
+   at ServiceStack.Redis.RedisResolver.CreateRedisClient(RedisEndpoint config, Boolean master) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 110
+   at ServiceStack.Redis.RedisResolver.CreateMasterClient(Int32 desiredIndex) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 178
+   at ServiceStack.Redis.PooledRedisClientManager.GetClientBlocking() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 272
+   at ServiceStack.Redis.PooledRedisClientManager.GetClient() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 218
+   at JobHub.Cache.RedisManager.GetClient() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Cache\RedisManager.cs:line 74
+   at JobHub.Service.JobProcessor.Lock(String key, String& selfMark, Int32 lockExpirySeconds) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 199
+   at JobHub.Service.JobProcessor.TakeDelayData() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 98
+   at JobHub.Service.JobProcessor.Work() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 60
+###39377b44a36542eca9bee384547823d0  2023-07-13 16:20:20.731 ERROR JobProcessor 任务调度异常：Could not resolve master instance within 10000ms RetryTimeout
+   at ServiceStack.Redis.RedisResolver.CreateRedisClient(RedisEndpoint config, Boolean master) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 110
+   at ServiceStack.Redis.RedisResolver.CreateMasterClient(Int32 desiredIndex) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 178
+   at ServiceStack.Redis.PooledRedisClientManager.GetClientBlocking() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 272
+   at ServiceStack.Redis.PooledRedisClientManager.GetClient() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 218
+   at JobHub.Cache.RedisManager.GetClient() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Cache\RedisManager.cs:line 74
+   at JobHub.Service.JobProcessor.Lock(String key, String& selfMark, Int32 lockExpirySeconds) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 199
+   at JobHub.Service.JobProcessor.TakeDelayData() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 98
+   at JobHub.Service.JobProcessor.Work() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 60
+###b9994c532b644193b5564993297a0591  2023-07-13 16:20:36.851 ERROR JobProcessor 任务调度异常：Could not resolve master instance within 10000ms RetryTimeout
+   at ServiceStack.Redis.RedisResolver.CreateRedisClient(RedisEndpoint config, Boolean master) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 110
+   at ServiceStack.Redis.RedisResolver.CreateMasterClient(Int32 desiredIndex) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 178
+   at ServiceStack.Redis.PooledRedisClientManager.GetClientBlocking() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 272
+   at ServiceStack.Redis.PooledRedisClientManager.GetClient() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 218
+   at JobHub.Cache.RedisManager.GetClient() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Cache\RedisManager.cs:line 74
+   at JobHub.Service.JobProcessor.Lock(String key, String& selfMark, Int32 lockExpirySeconds) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 199
+   at JobHub.Service.JobProcessor.TakeDelayData() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 98
+   at JobHub.Service.JobProcessor.Work() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 60
+###5e553228025d40b4aed6dfb5fe707e33  2023-07-13 16:20:48.343 ERROR JobProcessor 任务调度异常：Could not resolve master instance within 10000ms RetryTimeout
+   at ServiceStack.Redis.RedisResolver.CreateRedisClient(RedisEndpoint config, Boolean master) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 110
+   at ServiceStack.Redis.RedisResolver.CreateMasterClient(Int32 desiredIndex) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 178
+   at ServiceStack.Redis.PooledRedisClientManager.GetClientBlocking() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 272
+   at ServiceStack.Redis.PooledRedisClientManager.GetClient() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 218
+   at JobHub.Cache.RedisManager.GetClient() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Cache\RedisManager.cs:line 74
+   at JobHub.Service.JobProcessor.Lock(String key, String& selfMark, Int32 lockExpirySeconds) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 199
+   at JobHub.Service.JobProcessor.TakeDelayData() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 98
+   at JobHub.Service.JobProcessor.Work() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 60
+###f2a48068b3a14f819119378893827f7a  2023-07-13 16:21:02.744 ERROR JobProcessor 任务调度异常：Could not resolve master instance within 10000ms RetryTimeout
+   at ServiceStack.Redis.RedisResolver.CreateRedisClient(RedisEndpoint config, Boolean master) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 110
+   at ServiceStack.Redis.RedisResolver.CreateMasterClient(Int32 desiredIndex) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 178
+   at ServiceStack.Redis.PooledRedisClientManager.GetClientBlocking() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 272
+   at ServiceStack.Redis.PooledRedisClientManager.GetClient() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 218
+   at JobHub.Cache.RedisManager.GetClient() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Cache\RedisManager.cs:line 74
+   at JobHub.Service.JobProcessor.Lock(String key, String& selfMark, Int32 lockExpirySeconds) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 199
+   at JobHub.Service.JobProcessor.TakeDelayData() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 98
+   at JobHub.Service.JobProcessor.Work() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 60
+###7896f76d01084ee3a82bc11fcdce56d7  2023-07-13 16:21:16.454 ERROR JobProcessor 任务调度异常：Could not resolve master instance within 10000ms RetryTimeout
+   at ServiceStack.Redis.RedisResolver.CreateRedisClient(RedisEndpoint config, Boolean master) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 110
+   at ServiceStack.Redis.RedisResolver.CreateMasterClient(Int32 desiredIndex) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 178
+   at ServiceStack.Redis.PooledRedisClientManager.GetClientBlocking() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 272
+   at ServiceStack.Redis.PooledRedisClientManager.GetClient() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 218
+   at JobHub.Cache.RedisManager.GetClient() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Cache\RedisManager.cs:line 74
+   at JobHub.Service.JobProcessor.Lock(String key, String& selfMark, Int32 lockExpirySeconds) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 199
+   at JobHub.Service.JobProcessor.TakeDelayData() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 98
+   at JobHub.Service.JobProcessor.Work() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 60
+###70506addfe83462b8c27f28e6724a9f0  2023-07-13 16:21:27.779 ERROR JobProcessor 任务调度异常：Could not resolve master instance within 10000ms RetryTimeout
+   at ServiceStack.Redis.RedisResolver.CreateRedisClient(RedisEndpoint config, Boolean master) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 110
+   at ServiceStack.Redis.RedisResolver.CreateMasterClient(Int32 desiredIndex) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 178
+   at ServiceStack.Redis.PooledRedisClientManager.GetClientBlocking() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 272
+   at ServiceStack.Redis.PooledRedisClientManager.GetClient() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 218
+   at JobHub.Cache.RedisManager.GetClient() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Cache\RedisManager.cs:line 74
+   at JobHub.Service.JobProcessor.Lock(String key, String& selfMark, Int32 lockExpirySeconds) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 199
+   at JobHub.Service.JobProcessor.TakeDelayData() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 98
+   at JobHub.Service.JobProcessor.Work() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 60
+###7b5b49cf04344ddda614c9bb210ba678  2023-07-13 16:21:39.101 ERROR JobProcessor 任务调度异常：Could not resolve master instance within 10000ms RetryTimeout
+   at ServiceStack.Redis.RedisResolver.CreateRedisClient(RedisEndpoint config, Boolean master) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 110
+   at ServiceStack.Redis.RedisResolver.CreateMasterClient(Int32 desiredIndex) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 178
+   at ServiceStack.Redis.PooledRedisClientManager.GetClientBlocking() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 272
+   at ServiceStack.Redis.PooledRedisClientManager.GetClient() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 218
+   at JobHub.Cache.RedisManager.GetClient() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Cache\RedisManager.cs:line 74
+   at JobHub.Service.JobProcessor.Lock(String key, String& selfMark, Int32 lockExpirySeconds) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 199
+   at JobHub.Service.JobProcessor.TakeDelayData() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 98
+   at JobHub.Service.JobProcessor.Work() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 60
+###8faf65d19dfa440f9434f14dc4c9a8d4  2023-07-13 16:21:51.460 ERROR JobProcessor 任务调度异常：Could not resolve master instance within 10000ms RetryTimeout
+   at ServiceStack.Redis.RedisResolver.CreateRedisClient(RedisEndpoint config, Boolean master) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 110
+   at ServiceStack.Redis.RedisResolver.CreateMasterClient(Int32 desiredIndex) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 178
+   at ServiceStack.Redis.PooledRedisClientManager.GetClientBlocking() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 272
+   at ServiceStack.Redis.PooledRedisClientManager.GetClient() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 218
+   at JobHub.Cache.RedisManager.GetClient() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Cache\RedisManager.cs:line 74
+   at JobHub.Service.JobProcessor.Lock(String key, String& selfMark, Int32 lockExpirySeconds) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 199
+   at JobHub.Service.JobProcessor.TakeDelayData() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 98
+   at JobHub.Service.JobProcessor.Work() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 60
+###2fd200bae9174671b35b383c9089c2c1  2023-07-13 16:22:03.470 ERROR JobProcessor 任务调度异常：Could not resolve master instance within 10000ms RetryTimeout
+   at ServiceStack.Redis.RedisResolver.CreateRedisClient(RedisEndpoint config, Boolean master) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 110
+   at ServiceStack.Redis.RedisResolver.CreateMasterClient(Int32 desiredIndex) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 178
+   at ServiceStack.Redis.PooledRedisClientManager.GetClientBlocking() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 272
+   at ServiceStack.Redis.PooledRedisClientManager.GetClient() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 218
+   at JobHub.Cache.RedisManager.GetClient() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Cache\RedisManager.cs:line 74
+   at JobHub.Service.JobProcessor.Lock(String key, String& selfMark, Int32 lockExpirySeconds) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 199
+   at JobHub.Service.JobProcessor.TakeDelayData() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 98
+   at JobHub.Service.JobProcessor.Work() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 60
+###24d6ca396baa4a1aae3d039f3e351c5f  2023-07-13 16:22:16.045 ERROR JobProcessor 任务调度异常：Could not resolve master instance within 10000ms RetryTimeout
+   at ServiceStack.Redis.RedisResolver.CreateRedisClient(RedisEndpoint config, Boolean master) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 110
+   at ServiceStack.Redis.RedisResolver.CreateMasterClient(Int32 desiredIndex) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 178
+   at ServiceStack.Redis.PooledRedisClientManager.GetClientBlocking() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 272
+   at ServiceStack.Redis.PooledRedisClientManager.GetClient() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 218
+   at JobHub.Cache.RedisManager.GetClient() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Cache\RedisManager.cs:line 74
+   at JobHub.Service.JobProcessor.Lock(String key, String& selfMark, Int32 lockExpirySeconds) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 199
+   at JobHub.Service.JobProcessor.TakeDelayData() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 98
+   at JobHub.Service.JobProcessor.Work() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 60
+###ce009e8b97f94b64aa2b525b2c2cc041  2023-07-13 16:22:31.002 ERROR JobProcessor 任务调度异常：Could not resolve master instance within 10000ms RetryTimeout
+   at ServiceStack.Redis.RedisResolver.CreateRedisClient(RedisEndpoint config, Boolean master) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 110
+   at ServiceStack.Redis.RedisResolver.CreateMasterClient(Int32 desiredIndex) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 178
+   at ServiceStack.Redis.PooledRedisClientManager.GetClientBlocking() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 272
+   at ServiceStack.Redis.PooledRedisClientManager.GetClient() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 218
+   at JobHub.Cache.RedisManager.GetClient() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Cache\RedisManager.cs:line 74
+   at JobHub.Service.JobProcessor.Lock(String key, String& selfMark, Int32 lockExpirySeconds) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 199
+   at JobHub.Service.JobProcessor.TakeDelayData() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 98
+   at JobHub.Service.JobProcessor.Work() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 60
+###feca3aecd266416cb2fc51cc92f4fbf1  2023-07-13 16:22:42.512 ERROR JobProcessor 任务调度异常：Could not resolve master instance within 10000ms RetryTimeout
+   at ServiceStack.Redis.RedisResolver.CreateRedisClient(RedisEndpoint config, Boolean master) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 110
+   at ServiceStack.Redis.RedisResolver.CreateMasterClient(Int32 desiredIndex) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 178
+   at ServiceStack.Redis.PooledRedisClientManager.GetClientBlocking() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 272
+   at ServiceStack.Redis.PooledRedisClientManager.GetClient() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 218
+   at JobHub.Cache.RedisManager.GetClient() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Cache\RedisManager.cs:line 74
+   at JobHub.Service.JobProcessor.Lock(String key, String& selfMark, Int32 lockExpirySeconds) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 199
+   at JobHub.Service.JobProcessor.TakeDelayData() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 98
+   at JobHub.Service.JobProcessor.Work() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 60
+###d61dd1c0a0c847d38021b798f815ae20  2023-07-13 16:22:54.837 ERROR JobProcessor 任务调度异常：Could not resolve master instance within 10000ms RetryTimeout
+   at ServiceStack.Redis.RedisResolver.CreateRedisClient(RedisEndpoint config, Boolean master) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 110
+   at ServiceStack.Redis.RedisResolver.CreateMasterClient(Int32 desiredIndex) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 178
+   at ServiceStack.Redis.PooledRedisClientManager.GetClientBlocking() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 272
+   at ServiceStack.Redis.PooledRedisClientManager.GetClient() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 218
+   at JobHub.Cache.RedisManager.GetClient() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Cache\RedisManager.cs:line 74
+   at JobHub.Service.JobProcessor.Lock(String key, String& selfMark, Int32 lockExpirySeconds) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 199
+   at JobHub.Service.JobProcessor.TakeDelayData() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 98
+   at JobHub.Service.JobProcessor.Work() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 60
+###21dbdaa53c334cb49d27bcd7dba1c67d  2023-07-13 16:23:07.157 ERROR JobProcessor 任务调度异常：Could not resolve master instance within 10000ms RetryTimeout
+   at ServiceStack.Redis.RedisResolver.CreateRedisClient(RedisEndpoint config, Boolean master) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 110
+   at ServiceStack.Redis.RedisResolver.CreateMasterClient(Int32 desiredIndex) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 178
+   at ServiceStack.Redis.PooledRedisClientManager.GetClientBlocking() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 272
+   at ServiceStack.Redis.PooledRedisClientManager.GetClient() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 218
+   at JobHub.Cache.RedisManager.GetClient() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Cache\RedisManager.cs:line 74
+   at JobHub.Service.JobProcessor.Lock(String key, String& selfMark, Int32 lockExpirySeconds) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 199
+   at JobHub.Service.JobProcessor.TakeDelayData() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 98
+   at JobHub.Service.JobProcessor.Work() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 60
+###a8f01454e0bb4f84a799d13ba39fc171  2023-07-13 16:23:18.810 ERROR JobProcessor 任务调度异常：Could not resolve master instance within 10000ms RetryTimeout
+   at ServiceStack.Redis.RedisResolver.CreateRedisClient(RedisEndpoint config, Boolean master) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 110
+   at ServiceStack.Redis.RedisResolver.CreateMasterClient(Int32 desiredIndex) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 178
+   at ServiceStack.Redis.PooledRedisClientManager.GetClientBlocking() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 272
+   at ServiceStack.Redis.PooledRedisClientManager.GetClient() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 218
+   at JobHub.Cache.RedisManager.GetClient() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Cache\RedisManager.cs:line 74
+   at JobHub.Service.JobProcessor.Lock(String key, String& selfMark, Int32 lockExpirySeconds) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 199
+   at JobHub.Service.JobProcessor.TakeDelayData() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 98
+   at JobHub.Service.JobProcessor.Work() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 60
+###0473300423734465a06f26f44a690d26  2023-07-13 16:23:30.584 ERROR JobProcessor 任务调度异常：Could not resolve master instance within 10000ms RetryTimeout
+   at ServiceStack.Redis.RedisResolver.CreateRedisClient(RedisEndpoint config, Boolean master) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 110
+   at ServiceStack.Redis.RedisResolver.CreateMasterClient(Int32 desiredIndex) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 178
+   at ServiceStack.Redis.PooledRedisClientManager.GetClientBlocking() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 272
+   at ServiceStack.Redis.PooledRedisClientManager.GetClient() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 218
+   at JobHub.Cache.RedisManager.GetClient() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Cache\RedisManager.cs:line 74
+   at JobHub.Service.JobProcessor.Lock(String key, String& selfMark, Int32 lockExpirySeconds) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 199
+   at JobHub.Service.JobProcessor.TakeDelayData() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 98
+   at JobHub.Service.JobProcessor.Work() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 60
+###09cd54002ec74ba49efe5bfc49cda028  2023-07-13 16:23:43.062 ERROR JobProcessor 任务调度异常：Could not resolve master instance within 10000ms RetryTimeout
+   at ServiceStack.Redis.RedisResolver.CreateRedisClient(RedisEndpoint config, Boolean master) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 110
+   at ServiceStack.Redis.RedisResolver.CreateMasterClient(Int32 desiredIndex) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 178
+   at ServiceStack.Redis.PooledRedisClientManager.GetClientBlocking() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 272
+   at ServiceStack.Redis.PooledRedisClientManager.GetClient() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 218
+   at JobHub.Cache.RedisManager.GetClient() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Cache\RedisManager.cs:line 74
+   at JobHub.Service.JobProcessor.Lock(String key, String& selfMark, Int32 lockExpirySeconds) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 199
+   at JobHub.Service.JobProcessor.TakeDelayData() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 98
+   at JobHub.Service.JobProcessor.Work() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 60
+###218de3251ba240fe98d4cdfd94602303  2023-07-13 16:23:55.483 ERROR JobProcessor 任务调度异常：Could not resolve master instance within 10000ms RetryTimeout
+   at ServiceStack.Redis.RedisResolver.CreateRedisClient(RedisEndpoint config, Boolean master) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 110
+   at ServiceStack.Redis.PooledRedisClientManager.GetClientBlocking() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 272
+   at JobHub.Cache.RedisManager.GetClient() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Cache\RedisManager.cs:line 74
+   at JobHub.Service.JobProcessor.Lock(String key, String& selfMark, Int32 lockExpirySeconds) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 199
+   at JobHub.Service.JobProcessor.TakeDelayData() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 98
+   at JobHub.Service.JobProcessor.Work() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 60
+###a5122ecb038e4b9490e602bfc0742b5b  2023-07-13 16:24:06.731 ERROR JobProcessor 任务调度异常：Could not resolve master instance within 10000ms RetryTimeout
+   at ServiceStack.Redis.RedisResolver.CreateRedisClient(RedisEndpoint config, Boolean master) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 110
+   at ServiceStack.Redis.PooledRedisClientManager.GetClientBlocking() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 272
+   at JobHub.Cache.RedisManager.GetClient() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Cache\RedisManager.cs:line 74
+   at JobHub.Service.JobProcessor.Lock(String key, String& selfMark, Int32 lockExpirySeconds) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 199
+   at JobHub.Service.JobProcessor.TakeDelayData() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 98
+   at JobHub.Service.JobProcessor.Work() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 60
+###e7f8019256bb4f38973542d9975e0569  2023-07-13 16:24:18.282 ERROR JobProcessor 任务调度异常：Could not resolve master instance within 10000ms RetryTimeout
+   at ServiceStack.Redis.RedisResolver.CreateRedisClient(RedisEndpoint config, Boolean master) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 110
+   at ServiceStack.Redis.PooledRedisClientManager.GetClientBlocking() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 272
+   at JobHub.Cache.RedisManager.GetClient() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Cache\RedisManager.cs:line 74
+   at JobHub.Service.JobProcessor.Lock(String key, String& selfMark, Int32 lockExpirySeconds) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 199
+   at JobHub.Service.JobProcessor.TakeDelayData() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 98
+   at JobHub.Service.JobProcessor.Work() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 60
+###b46ade98b6ab427b942221121685b5f3  2023-07-13 16:24:30.993 ERROR JobProcessor 任务调度异常：Could not resolve master instance within 10000ms RetryTimeout
+   at ServiceStack.Redis.RedisResolver.CreateRedisClient(RedisEndpoint config, Boolean master) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 110
+   at ServiceStack.Redis.PooledRedisClientManager.GetClientBlocking() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 272
+   at JobHub.Cache.RedisManager.GetClient() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Cache\RedisManager.cs:line 74
+   at JobHub.Service.JobProcessor.Lock(String key, String& selfMark, Int32 lockExpirySeconds) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 199
+   at JobHub.Service.JobProcessor.TakeDelayData() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 98
+   at JobHub.Service.JobProcessor.Work() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 60
+###413438210e45469ab52519aea9089104  2023-07-13 16:24:42.827 ERROR JobProcessor 任务调度异常：Could not resolve master instance within 10000ms RetryTimeout
+   at ServiceStack.Redis.RedisResolver.CreateRedisClient(RedisEndpoint config, Boolean master) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 110
+   at ServiceStack.Redis.PooledRedisClientManager.GetClientBlocking() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 272
+   at JobHub.Cache.RedisManager.GetClient() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Cache\RedisManager.cs:line 74
+   at JobHub.Service.JobProcessor.Lock(String key, String& selfMark, Int32 lockExpirySeconds) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 199
+   at JobHub.Service.JobProcessor.TakeDelayData() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 98
+   at JobHub.Service.JobProcessor.Work() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 60
+###ab1a2c09edda4841b4aeb80e9060ab59  2023-07-13 16:24:54.524 ERROR JobProcessor 任务调度异常：Could not resolve master instance within 10000ms RetryTimeout
+   at ServiceStack.Redis.RedisResolver.CreateRedisClient(RedisEndpoint config, Boolean master) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 110
+   at ServiceStack.Redis.PooledRedisClientManager.GetClientBlocking() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 272
+   at JobHub.Cache.RedisManager.GetClient() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Cache\RedisManager.cs:line 74
+   at JobHub.Service.JobProcessor.Lock(String key, String& selfMark, Int32 lockExpirySeconds) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 199
+   at JobHub.Service.JobProcessor.TakeDelayData() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 98
+   at JobHub.Service.JobProcessor.Work() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 60
+###3da08a3cc3e44e6d84387956d3c7f2a6  2023-07-13 16:25:06.552 ERROR JobProcessor 任务调度异常：Could not resolve master instance within 10000ms RetryTimeout
+   at ServiceStack.Redis.RedisResolver.CreateRedisClient(RedisEndpoint config, Boolean master) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 110
+   at ServiceStack.Redis.PooledRedisClientManager.GetClientBlocking() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 272
+   at JobHub.Cache.RedisManager.GetClient() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Cache\RedisManager.cs:line 74
+   at JobHub.Service.JobProcessor.Lock(String key, String& selfMark, Int32 lockExpirySeconds) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 199
+   at JobHub.Service.JobProcessor.TakeDelayData() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 98
+   at JobHub.Service.JobProcessor.Work() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 60
+###c6079c21832d4ea4bbe55ef13c9a8d34  2023-07-13 16:25:18.665 ERROR JobProcessor 任务调度异常：Could not resolve master instance within 10000ms RetryTimeout
+   at ServiceStack.Redis.RedisResolver.CreateRedisClient(RedisEndpoint config, Boolean master) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 110
+   at ServiceStack.Redis.PooledRedisClientManager.GetClientBlocking() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 272
+   at JobHub.Cache.RedisManager.GetClient() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Cache\RedisManager.cs:line 74
+   at JobHub.Service.JobProcessor.Lock(String key, String& selfMark, Int32 lockExpirySeconds) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 199
+   at JobHub.Service.JobProcessor.TakeDelayData() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 98
+   at JobHub.Service.JobProcessor.Work() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 60
+###647a10f062584fbf87a5d8d184cd5348  2023-07-13 16:25:31.219 ERROR JobProcessor 任务调度异常：Could not resolve master instance within 10000ms RetryTimeout
+   at ServiceStack.Redis.RedisResolver.CreateRedisClient(RedisEndpoint config, Boolean master) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 110
+   at ServiceStack.Redis.PooledRedisClientManager.GetClientBlocking() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 272
+   at JobHub.Cache.RedisManager.GetClient() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Cache\RedisManager.cs:line 74
+   at JobHub.Service.JobProcessor.Lock(String key, String& selfMark, Int32 lockExpirySeconds) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 199
+   at JobHub.Service.JobProcessor.TakeDelayData() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 98
+   at JobHub.Service.JobProcessor.Work() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 60
+###4c4bc8e79c374077b5e0897a52151db9  2023-07-13 16:25:43.220 ERROR JobProcessor 任务调度异常：Could not resolve master instance within 10000ms RetryTimeout
+   at ServiceStack.Redis.RedisResolver.CreateRedisClient(RedisEndpoint config, Boolean master) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 110
+   at ServiceStack.Redis.PooledRedisClientManager.GetClientBlocking() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 272
+   at JobHub.Cache.RedisManager.GetClient() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Cache\RedisManager.cs:line 74
+   at JobHub.Service.JobProcessor.Lock(String key, String& selfMark, Int32 lockExpirySeconds) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 199
+   at JobHub.Service.JobProcessor.TakeDelayData() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 98
+   at JobHub.Service.JobProcessor.Work() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 60
+###58c9a792ce224ce184747b4e85c5a8a3  2023-07-13 16:25:55.530 ERROR JobProcessor 任务调度异常：Could not resolve master instance within 10000ms RetryTimeout
+   at ServiceStack.Redis.RedisResolver.CreateRedisClient(RedisEndpoint config, Boolean master) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 110
+   at ServiceStack.Redis.PooledRedisClientManager.GetClientBlocking() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 272
+   at JobHub.Cache.RedisManager.GetClient() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Cache\RedisManager.cs:line 74
+   at JobHub.Service.JobProcessor.Lock(String key, String& selfMark, Int32 lockExpirySeconds) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 199
+   at JobHub.Service.JobProcessor.TakeDelayData() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 98
+   at JobHub.Service.JobProcessor.Work() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 60
+###1edecf93becd4dbb943a1d36a13a0936  2023-07-13 16:26:06.713 ERROR JobProcessor 任务调度异常：Could not resolve master instance within 10000ms RetryTimeout
+   at ServiceStack.Redis.RedisResolver.CreateRedisClient(RedisEndpoint config, Boolean master) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 110
+   at ServiceStack.Redis.PooledRedisClientManager.GetClientBlocking() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 272
+   at JobHub.Cache.RedisManager.GetClient() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Cache\RedisManager.cs:line 74
+   at JobHub.Service.JobProcessor.Lock(String key, String& selfMark, Int32 lockExpirySeconds) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 199
+   at JobHub.Service.JobProcessor.TakeDelayData() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 98
+   at JobHub.Service.JobProcessor.Work() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 60
+###86890190b4214a9190bf69782069d1f2  2023-07-13 16:26:20.914 ERROR JobProcessor 任务调度异常：Could not resolve master instance within 10000ms RetryTimeout
+   at ServiceStack.Redis.RedisResolver.CreateRedisClient(RedisEndpoint config, Boolean master) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 110
+   at ServiceStack.Redis.PooledRedisClientManager.GetClientBlocking() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 272
+   at JobHub.Cache.RedisManager.GetClient() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Cache\RedisManager.cs:line 74
+   at JobHub.Service.JobProcessor.Lock(String key, String& selfMark, Int32 lockExpirySeconds) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 199
+   at JobHub.Service.JobProcessor.TakeDelayData() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 98
+   at JobHub.Service.JobProcessor.Work() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 60
+###aaf9afdaed9e43bfb77e3c67643981fb  2023-07-13 16:26:32.509 ERROR JobProcessor 任务调度异常：Could not resolve master instance within 10000ms RetryTimeout
+   at ServiceStack.Redis.RedisResolver.CreateRedisClient(RedisEndpoint config, Boolean master) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 110
+   at ServiceStack.Redis.PooledRedisClientManager.GetClientBlocking() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 272
+   at JobHub.Cache.RedisManager.GetClient() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Cache\RedisManager.cs:line 74
+   at JobHub.Service.JobProcessor.Lock(String key, String& selfMark, Int32 lockExpirySeconds) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 199
+   at JobHub.Service.JobProcessor.TakeDelayData() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 98
+   at JobHub.Service.JobProcessor.Work() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 60
+###66b22f244b204f78bf305dc67cfcc2c8  2023-07-13 16:26:44.198 ERROR JobProcessor 任务调度异常：Could not resolve master instance within 10000ms RetryTimeout
+   at ServiceStack.Redis.RedisResolver.CreateRedisClient(RedisEndpoint config, Boolean master) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 110
+   at ServiceStack.Redis.PooledRedisClientManager.GetClientBlocking() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 272
+   at JobHub.Cache.RedisManager.GetClient() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Cache\RedisManager.cs:line 74
+   at JobHub.Service.JobProcessor.Lock(String key, String& selfMark, Int32 lockExpirySeconds) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 199
+   at JobHub.Service.JobProcessor.TakeDelayData() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 98
+   at JobHub.Service.JobProcessor.Work() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 60
+###732c0147898d40e59f9d290eced42e99  2023-07-13 16:26:56.272 ERROR JobProcessor 任务调度异常：Could not resolve master instance within 10000ms RetryTimeout
+   at ServiceStack.Redis.RedisResolver.CreateRedisClient(RedisEndpoint config, Boolean master) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 110
+   at ServiceStack.Redis.PooledRedisClientManager.GetClientBlocking() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 272
+   at JobHub.Cache.RedisManager.GetClient() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Cache\RedisManager.cs:line 74
+   at JobHub.Service.JobProcessor.Lock(String key, String& selfMark, Int32 lockExpirySeconds) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 199
+   at JobHub.Service.JobProcessor.TakeDelayData() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 98
+   at JobHub.Service.JobProcessor.Work() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 60
+###5416a46107e94c6da46bed45607915e2  2023-07-13 16:27:08.064 ERROR JobProcessor 任务调度异常：Could not resolve master instance within 10000ms RetryTimeout
+   at ServiceStack.Redis.RedisResolver.CreateRedisClient(RedisEndpoint config, Boolean master) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 110
+   at ServiceStack.Redis.PooledRedisClientManager.GetClientBlocking() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 272
+   at JobHub.Cache.RedisManager.GetClient() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Cache\RedisManager.cs:line 74
+   at JobHub.Service.JobProcessor.Lock(String key, String& selfMark, Int32 lockExpirySeconds) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 199
+   at JobHub.Service.JobProcessor.TakeDelayData() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 98
+   at JobHub.Service.JobProcessor.Work() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 60
+###f125b9b7f64949c0ace790a60e4a8a06  2023-07-13 16:27:19.543 ERROR JobProcessor 任务调度异常：Could not resolve master instance within 10000ms RetryTimeout
+   at ServiceStack.Redis.RedisResolver.CreateRedisClient(RedisEndpoint config, Boolean master) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 110
+   at ServiceStack.Redis.PooledRedisClientManager.GetClientBlocking() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 272
+   at JobHub.Cache.RedisManager.GetClient() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Cache\RedisManager.cs:line 74
+   at JobHub.Service.JobProcessor.Lock(String key, String& selfMark, Int32 lockExpirySeconds) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 199
+   at JobHub.Service.JobProcessor.TakeDelayData() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 98
+   at JobHub.Service.JobProcessor.Work() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 60
+###e08531be5249448587d8300e24c6f735  2023-07-13 16:27:31.997 ERROR JobProcessor 任务调度异常：Could not resolve master instance within 10000ms RetryTimeout
+   at ServiceStack.Redis.RedisResolver.CreateRedisClient(RedisEndpoint config, Boolean master) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 110
+   at ServiceStack.Redis.PooledRedisClientManager.GetClientBlocking() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 272
+   at JobHub.Cache.RedisManager.GetClient() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Cache\RedisManager.cs:line 74
+   at JobHub.Service.JobProcessor.Lock(String key, String& selfMark, Int32 lockExpirySeconds) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 199
+   at JobHub.Service.JobProcessor.TakeDelayData() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 98
+   at JobHub.Service.JobProcessor.Work() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 60
+###8d0f7672bb534d1cbddec68c575708a2  2023-07-13 16:27:43.615 ERROR JobProcessor 任务调度异常：Could not resolve master instance within 10000ms RetryTimeout
+   at ServiceStack.Redis.RedisResolver.CreateRedisClient(RedisEndpoint config, Boolean master) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 110
+   at ServiceStack.Redis.PooledRedisClientManager.GetClientBlocking() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 272
+   at JobHub.Cache.RedisManager.GetClient() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Cache\RedisManager.cs:line 74
+   at JobHub.Service.JobProcessor.Lock(String key, String& selfMark, Int32 lockExpirySeconds) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 199
+   at JobHub.Service.JobProcessor.TakeDelayData() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 98
+   at JobHub.Service.JobProcessor.Work() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 60
+###6f5f1767b3cc473d83e00f14c24b7066  2023-07-13 16:27:54.861 ERROR JobProcessor 任务调度异常：Could not resolve master instance within 10000ms RetryTimeout
+   at ServiceStack.Redis.RedisResolver.CreateRedisClient(RedisEndpoint config, Boolean master) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 110
+   at ServiceStack.Redis.PooledRedisClientManager.GetClientBlocking() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 272
+   at JobHub.Cache.RedisManager.GetClient() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Cache\RedisManager.cs:line 74
+   at JobHub.Service.JobProcessor.Lock(String key, String& selfMark, Int32 lockExpirySeconds) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 199
+   at JobHub.Service.JobProcessor.TakeDelayData() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 98
+   at JobHub.Service.JobProcessor.Work() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 60
+###dd3bbf9904714c9bb6c2a6a7e0dab888  2023-07-13 16:28:06.975 ERROR JobProcessor 任务调度异常：Could not resolve master instance within 10000ms RetryTimeout
+   at ServiceStack.Redis.RedisResolver.CreateRedisClient(RedisEndpoint config, Boolean master) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 110
+   at ServiceStack.Redis.PooledRedisClientManager.GetClientBlocking() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 272
+   at JobHub.Cache.RedisManager.GetClient() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Cache\RedisManager.cs:line 74
+   at JobHub.Service.JobProcessor.Lock(String key, String& selfMark, Int32 lockExpirySeconds) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 199
+   at JobHub.Service.JobProcessor.TakeDelayData() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 98
+   at JobHub.Service.JobProcessor.Work() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 60
+###b2782dcf217c46dd9081be81da031e2e  2023-07-13 16:28:19.213 ERROR JobProcessor 任务调度异常：Could not resolve master instance within 10000ms RetryTimeout
+   at ServiceStack.Redis.RedisResolver.CreateRedisClient(RedisEndpoint config, Boolean master) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 110
+   at ServiceStack.Redis.PooledRedisClientManager.GetClientBlocking() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 272
+   at JobHub.Cache.RedisManager.GetClient() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Cache\RedisManager.cs:line 74
+   at JobHub.Service.JobProcessor.Lock(String key, String& selfMark, Int32 lockExpirySeconds) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 199
+   at JobHub.Service.JobProcessor.TakeDelayData() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 98
+   at JobHub.Service.JobProcessor.Work() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 60
+###a4cfc4018e6c4fbe8a615776443e0d09  2023-07-13 16:28:31.443 ERROR JobProcessor 任务调度异常：Could not resolve master instance within 10000ms RetryTimeout
+   at ServiceStack.Redis.RedisResolver.CreateRedisClient(RedisEndpoint config, Boolean master) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 110
+   at ServiceStack.Redis.PooledRedisClientManager.GetClientBlocking() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 272
+   at JobHub.Cache.RedisManager.GetClient() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Cache\RedisManager.cs:line 74
+   at JobHub.Service.JobProcessor.Lock(String key, String& selfMark, Int32 lockExpirySeconds) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 199
+   at JobHub.Service.JobProcessor.TakeDelayData() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 98
+   at JobHub.Service.JobProcessor.Work() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 60
+###dc4bfbf1bf6b4a4590845524be8213b8  2023-07-13 16:28:43.623 ERROR JobProcessor 任务调度异常：Could not resolve master instance within 10000ms RetryTimeout
+   at ServiceStack.Redis.RedisResolver.CreateRedisClient(RedisEndpoint config, Boolean master) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 110
+   at ServiceStack.Redis.PooledRedisClientManager.GetClientBlocking() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 272
+   at JobHub.Cache.RedisManager.GetClient() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Cache\RedisManager.cs:line 74
+   at JobHub.Service.JobProcessor.Lock(String key, String& selfMark, Int32 lockExpirySeconds) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 199
+   at JobHub.Service.JobProcessor.TakeDelayData() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 98
+   at JobHub.Service.JobProcessor.Work() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 60
+###4ac5c0ef4e2c441c90b54edb3049acf0  2023-07-13 16:28:55.303 ERROR JobProcessor 任务调度异常：Could not resolve master instance within 10000ms RetryTimeout
+   at ServiceStack.Redis.RedisResolver.CreateRedisClient(RedisEndpoint config, Boolean master) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 110
+   at ServiceStack.Redis.PooledRedisClientManager.GetClientBlocking() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 272
+   at JobHub.Cache.RedisManager.GetClient() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Cache\RedisManager.cs:line 74
+   at JobHub.Service.JobProcessor.Lock(String key, String& selfMark, Int32 lockExpirySeconds) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 199
+   at JobHub.Service.JobProcessor.TakeDelayData() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 98
+   at JobHub.Service.JobProcessor.Work() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 60
+###6f6cf66b708344949cd26f16ab4c5dc9  2023-07-13 16:29:07.499 ERROR JobProcessor 任务调度异常：Could not resolve master instance within 10000ms RetryTimeout
+   at ServiceStack.Redis.RedisResolver.CreateRedisClient(RedisEndpoint config, Boolean master) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 110
+   at ServiceStack.Redis.PooledRedisClientManager.GetClientBlocking() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 272
+   at JobHub.Cache.RedisManager.GetClient() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Cache\RedisManager.cs:line 74
+   at JobHub.Service.JobProcessor.Lock(String key, String& selfMark, Int32 lockExpirySeconds) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 199
+   at JobHub.Service.JobProcessor.TakeDelayData() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 98
+   at JobHub.Service.JobProcessor.Work() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 60
+###bc4bc1fe46454cb08e19a34ad29a645c  2023-07-13 16:29:18.794 ERROR JobProcessor 任务调度异常：Could not resolve master instance within 10000ms RetryTimeout
+   at ServiceStack.Redis.RedisResolver.CreateRedisClient(RedisEndpoint config, Boolean master) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 110
+   at ServiceStack.Redis.PooledRedisClientManager.GetClientBlocking() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 272
+   at JobHub.Cache.RedisManager.GetClient() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Cache\RedisManager.cs:line 74
+   at JobHub.Service.JobProcessor.Lock(String key, String& selfMark, Int32 lockExpirySeconds) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 199
+   at JobHub.Service.JobProcessor.TakeDelayData() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 98
+   at JobHub.Service.JobProcessor.Work() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 60
+###1be8bbf6ae8240b09c536101dba5758f  2023-07-13 16:29:34.293 ERROR JobProcessor 任务调度异常：Could not resolve master instance within 10000ms RetryTimeout
+   at ServiceStack.Redis.RedisResolver.CreateRedisClient(RedisEndpoint config, Boolean master) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 110
+   at ServiceStack.Redis.PooledRedisClientManager.GetClientBlocking() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 272
+   at JobHub.Cache.RedisManager.GetClient() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Cache\RedisManager.cs:line 74
+   at JobHub.Service.JobProcessor.Lock(String key, String& selfMark, Int32 lockExpirySeconds) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 199
+   at JobHub.Service.JobProcessor.TakeDelayData() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 98
+   at JobHub.Service.JobProcessor.Work() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 60
+###7916c6201e3744b8939f013101e2570d  2023-07-13 16:29:45.645 ERROR JobProcessor 任务调度异常：Could not resolve master instance within 10000ms RetryTimeout
+   at ServiceStack.Redis.RedisResolver.CreateRedisClient(RedisEndpoint config, Boolean master) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 110
+   at ServiceStack.Redis.PooledRedisClientManager.GetClientBlocking() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 272
+   at JobHub.Cache.RedisManager.GetClient() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Cache\RedisManager.cs:line 74
+   at JobHub.Service.JobProcessor.Lock(String key, String& selfMark, Int32 lockExpirySeconds) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 199
+   at JobHub.Service.JobProcessor.TakeDelayData() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 98
+   at JobHub.Service.JobProcessor.Work() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 60
+###bb5fb58684a740ea85d7d97e84232599  2023-07-13 16:29:57.598 ERROR JobProcessor 任务调度异常：Could not resolve master instance within 10000ms RetryTimeout
+   at ServiceStack.Redis.RedisResolver.CreateRedisClient(RedisEndpoint config, Boolean master) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 110
+   at ServiceStack.Redis.PooledRedisClientManager.GetClientBlocking() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 272
+   at JobHub.Cache.RedisManager.GetClient() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Cache\RedisManager.cs:line 74
+   at JobHub.Service.JobProcessor.Lock(String key, String& selfMark, Int32 lockExpirySeconds) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 199
+   at JobHub.Service.JobProcessor.TakeDelayData() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 98
+   at JobHub.Service.JobProcessor.Work() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 60
+###a03c2010a0b6486a9bea073ea8b68f7f  2023-07-13 16:30:10.187 ERROR JobProcessor 任务调度异常：Could not resolve master instance within 10000ms RetryTimeout
+   at ServiceStack.Redis.RedisResolver.CreateRedisClient(RedisEndpoint config, Boolean master) in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\RedisResolver.cs:line 110
+   at ServiceStack.Redis.PooledRedisClientManager.GetClientBlocking() in C:\Work\项目\QITA\2023\ServiceStack\ServiceStack.Redis\src\ServiceStack.Redis\PooledRedisClientManager.cs:line 272
+   at JobHub.Cache.RedisManager.GetClient() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Cache\RedisManager.cs:line 74
+   at JobHub.Service.JobProcessor.Lock(String key, String& selfMark, Int32 lockExpirySeconds) in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 199
+   at JobHub.Service.JobProcessor.TakeDelayData() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 98
+   at JobHub.Service.JobProcessor.Work() in C:\Work\项目\QITA\2022\net6.0-JobHub\JobHub\WebApplication1\Service\JobProcessor.cs:line 60
